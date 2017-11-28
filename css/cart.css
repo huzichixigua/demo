@@ -1,0 +1,180 @@
+.category-head .center h3{
+    text-align: center;
+    font-size: 18px;
+    line-height: 44px;
+    height: 44px;
+    font-weight: normal;
+}
+.safe {
+    margin-top: 45px;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    text-align: center;
+}
+.safe:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top:3px;
+    background: url("../images/icons/safe_icon.png");
+    background-size: 100%;
+}
+.safe p {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    
+}
+.car-head {
+    height: 35px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 15px;
+}
+.car-head .jdzy {
+   line-height: 35px;
+   height: 35px;
+   position: relative;
+   text-indent: 20px;
+}
+.car-head .jdzy:before{
+    width: 15px;
+    height: 10px;
+    background-size: 120px;
+    left: 0;
+}
+.car-head .free {
+    line-height: 35px;
+    color:red;
+    
+}
+.car-main .item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.car-main .item .pic {
+    width: 80px;
+    width: 80px;
+}
+.car-main .item .info {
+    margin-left: 130px;
+}
+.car-main .item .info .wrap {
+    margin-top: 10px;
+}
+.car-main .item .info .wrap .btn {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.car-main .item .info .wrap .btn input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    outline: none;
+}
+.car-main .item .info .wrap .btn span {
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.car-main .item .info .wrap .btn span:first-child {
+    border-left: none;
+}
+.car-main .item .info .trash{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.car-main .item .info .trash-t {
+    width: 20px;
+    height: 5px;
+    background: url("../images/icons/delete_up.png") 0 0 no-repeat;
+    background-size: 100%;
+    position: relative;
+    right: 2px;
+    transition:all .5s;
+}
+.car-main .item .info .trash-b {
+    width: 18px;
+    height: 18px;
+    background: url("../images/icons/delete_down.png") 0 0 no-repeat;
+    background-size: 100%;
+}
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.modal .section {
+    width: 80%;
+    height: 165px;
+    background-color: #fff;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.modal .section .top {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.modal .section .top p {
+    width: 100%;
+    text-align: center;
+}
+.modal .section .bottom input {
+    width: 45%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.modal .section .bottom .sure {
+    color: #fff;
+    background-color: red;
+}
+@keyframes myBounceInDown {
+    from, 60%, 75%, 90%, to {
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: translate3d(-50%, -3000px, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: translate3d(-50%, 0, 0);
+    }
+  
+    75% {
+      transform: translate3d(-50%, -70%, 0);
+    }
+  
+    90% {
+      transform: translate3d(-50%, -45%, 0);
+    }
+  
+    to {
+      transform: translate3d(-50%, -50%, 0);
+    }
+  }
+  
+  .myBounceInDown {
+    animation-name: myBounceInDown;
+  }

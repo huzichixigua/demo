@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+}
+
+.category-section {
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 45px;
+    overflow: hidden;
+}
+.category-aside {
+    height: 100%;
+    width: 74px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    overflow: hidden;
+}
+.category-aside li{
+    height: 35px;
+    line-height: 35px;
+    border-bottom:1px solid #ccc;
+}
+.category-article {
+    margin-left: 75px;
+    padding: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+.category-article .item{
+    margin-top: 10px;
+    
+}
+.category-article .item h3{
+    font-size: 16px;
+
+}
+.category-article .item a{
+    display: block;
+    padding:5px 10px;
+}
+.category-article .item p {
+    line-height: 2;
+    text-align: center;
+}
